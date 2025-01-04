@@ -1,0 +1,174 @@
+/* Set a background image for the entire body */
+body {
+    background-image: url('back.jpg'); /* Add the path of your wallpaper image */
+    background-size: cover; /* Ensure the wallpaper covers the entire page */
+    background-position: center; /* Center the wallpaper */
+    background-attachment: fixed; /* Make the background image fixed */
+    color: #fff; /* Text color (adjust as needed for readability) */
+}
+
+/* Reset some default styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: rgba(0, 0, 0, 0.7); /* Make the header background semi-transparent */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Make the images circular */
+img.mysirg{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.udemy{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.github{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 140px;
+    height: 140px/* Set height and width for images */
+}
+
+img.striver{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 140px;
+    height: 140px/* Set height and width for images */
+}
+
+img.codewithharry{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.hackerrank{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.gfg{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.chatgpt{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.solidpoint{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.gemini{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.social-media{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.shopping-games{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.editing{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 150px;
+    height: 150px/* Set height and width for images */
+}
+
+img.makaut-academic {
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 300px;
+    height: 200px/* Set height and width for images */
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #fdfbfb;
+    display: flex;
+    align-items: down;}
+
+a:hover {
+    color: #edf0f1;
+}
+
+/* List item styling */
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+li img {
+    margin-right: 10px;
+}
