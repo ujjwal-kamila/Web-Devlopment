@@ -4,7 +4,7 @@ body {
     background-size: cover; /* Ensure the wallpaper covers the entire page */
     background-position: center; /* Center the wallpaper */
     background-attachment: fixed; /* Make the background image fixed */
-    color: #fff; /* Text color (adjust as needed for readability) */
+    color: #eee4e4; /* Text color (adjust as needed for readability) */
 }
 
 /* Reset some default styles */
@@ -56,119 +56,154 @@ section h2 {
 img.mysirg{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
+}
+
+img.Python_DSA{
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.udemy{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.github{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 140px;
-    height: 140px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.striver{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 140px;
-    height: 140px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.codewithharry{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.hackerrank{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.gfg{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.chatgpt{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.solidpoint{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.gemini{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.social-media{
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 70px;
+    height: 70px/* Set height and width for images */
 }
 
 img.shopping-games{
-    border-radius: 50%;
+    border-radius: 90%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.editing{
-    border-radius: 50%;
+    border-radius: 90%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 150px;
-    height: 150px/* Set height and width for images */
+    width: 80px;
+    height: 80px/* Set height and width for images */
 }
 
 img.makaut-academic {
     border-radius: 50%;
     object-fit: cover; /* Ensures image is cropped within the circle */
-    width: 300px;
-    height: 200px/* Set height and width for images */
+    width: 150px;
+    height: 150px/* Set height and width for images */
 }
 
-/* Link styling */
+img.makaut-academic-classroom {
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 80px;
+    height: 80px/* Set height and width for images */
+}
+
+img.makaut-academic-canvas {
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image is cropped within the circle */
+    width: 100px;
+    height: 100px/* Set height and width for images */
+}
+
+
+
+ul {
+    display: flex; /* Align list items horizontally */
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+    gap: 100px; /* Space between list items */
+    padding: 0;
+    list-style: none; /* Remove bullets */
+    justify-content: center; /* Center-align items */
+}
+
+li {
+    display: flex; /* Flex layout for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the logo and text */
+    text-align: center; /* Center-align text */
+    margin: 10px; /* Add spacing around items */
+}
+
+img {
+    width: 50px; /* Set a uniform logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 0px; /* Space between image and text */
+}
+
 a {
-    text-decoration: none;
-    color: #fdfbfb;
-    display: flex;
-    align-items: down;}
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set text color */
+    font-size: 20px; /* Adjust text size */
+    font-weight: bold; /* Bold text */
+}
 
 a:hover {
-    color: #edf0f1;
-}
-
-/* List item styling */
-li {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-}
-
-li img {
-    margin-right: 10px;
+    color: #FFD700; /* Highlight text on hover (e.g., gold) */
 }
