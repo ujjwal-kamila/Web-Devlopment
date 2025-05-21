@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images lists and tables </title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <img height="500" src="pic.jpg" alt="Mahadev">
+    <!-- line break using br tag -->
+    <br>
+    <h1>Lists </h1>
+    <ul type="circle">
+        <li>This is the first order of my unordered list</li>
+        <li>This is the first order of my unordered list</li>
+        <ul>
+            <br>
+            <li>Another One</li>
+            <li>Another Two</li>
+            <li>Another Three</li>
+            <br>
+        </ul>
+        <li>This is the first order of my unordered list</li>
+    </ul>
+    <ol type="A">
+        <li>This is the first order of my ordered list</li>
+        <li>This is the first order of my ordered list</li>
+        <li>This is the first order of my ordered list</li>
+    </ol>
+
 
     <h2>Html table</h2>
+    <!--  caption using  -->
     <table>
-        <tr>
-            <th>Name</th>
-            <th>Employee I'd</th>
-            <th>Employee Role</th>
-            <th>Salary</th>
-        </tr>
-        <tr>
-            <td>Rony</td>
-            <td>81010</td>
-            <td>Web Devloper</td>
-            <td>40,000</td>         
-        </tr>
-        <tr>
-            <td>Rohan</td>
-            <td>81011</td>
-            <td>Programmer</td>
-            <td>45,000</td>
-        </tr>
-        <tr>
-            <td>Harry</td>
-            <td>81012</td>
-            <td>Android Devloper</td>
-            <td>50,000</td>
-        </tr>
-        <tr>
-            <td colspan="2">Raj</td>
-            <td rowspan="2">Ml Engineer</td>
-        </tr>
+        <thead>
+            <caption>Employee Details</caption>
+            <tr>
+                <th>Name</th>
+                <th>Employee I'd</th>
+                <th>Employee Role</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rony</td>
+                <td>81010</td>
+                <td>Web Devloper</td>
+                <td>40,000</td>
+            </tr>
+            <tr>
+                <td>Rohan</td>
+                <td>81011</td>
+                <td>Programmer</td>
+                <td>45,000</td>
+            </tr>
+            <tr>
+                <td>Harry</td>
+                <td>81012</td>
+                <td>Android Devloper</td>
+                <td>50,000</td>
+            </tr>
+            <tr>
+                <td colspan="2">Raj</td>
+                <td rowspan="2">Ml Engineer</td>
+                <td rowspan="2">75,000</td>
+            </tr>
+            <tr>
+                <td colspan="2">Ujjwal</td>
+            </tr>
+        </tbody>
     </table>
 
 
-
-
-
-
 </body>
+
 </html>
